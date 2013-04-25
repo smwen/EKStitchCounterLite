@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		631D7C3C17160AD6000F1FA2 /* EKStitchCounterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 631D7C3B17160AD6000F1FA2 /* EKStitchCounterTableViewCell.m */; };
+		631D7C6D171668AA000F1FA2 /* 4wiCX.png in Resources */ = {isa = PBXBuildFile; fileRef = 631D7C6A171668AA000F1FA2 /* 4wiCX.png */; };
+		631D7C6E171668AA000F1FA2 /* button_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 631D7C6B171668AA000F1FA2 /* button_red.png */; };
+		631D7C6F171668AA000F1FA2 /* button_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 631D7C6C171668AA000F1FA2 /* button_red@2x.png */; };
+		633002C8170E8CF400801C01 /* EKStitchCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 633002C7170E8CF400801C01 /* EKStitchCounter.m */; };
+		636535F31728C767008106A1 /* EKProjectContentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636535F21728C767008106A1 /* EKProjectContentsViewController.m */; };
+		639E0386170FB40300F76B49 /* EKProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 639E0385170FB40300F76B49 /* EKProject.m */; };
+		63C9FB60170E523C002269CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C9FB5F170E523C002269CF /* UIKit.framework */; };
+		63C9FB62170E523C002269CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C9FB61170E523C002269CF /* Foundation.framework */; };
+		63C9FB64170E523C002269CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C9FB63170E523C002269CF /* CoreGraphics.framework */; };
+		63C9FB6A170E523C002269CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63C9FB68170E523C002269CF /* InfoPlist.strings */; };
+		63C9FB6C170E523C002269CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C9FB6B170E523C002269CF /* main.m */; };
+		63C9FB70170E523C002269CF /* EKStitchCounterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C9FB6F170E523C002269CF /* EKStitchCounterAppDelegate.m */; };
+		63C9FB72170E523C002269CF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C9FB71170E523C002269CF /* Default.png */; };
+		63C9FB74170E523C002269CF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C9FB73170E523C002269CF /* Default@2x.png */; };
+		63C9FB76170E523C002269CF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C9FB75170E523C002269CF /* Default-568h@2x.png */; };
+		63C9FB79170E523C002269CF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C9FB77170E523C002269CF /* MainStoryboard.storyboard */; };
+		63C9FB84170E523C002269CF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C9FB83170E523C002269CF /* SenTestingKit.framework */; };
+		63C9FB85170E523C002269CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C9FB5F170E523C002269CF /* UIKit.framework */; };
+		63C9FB86170E523C002269CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C9FB61170E523C002269CF /* Foundation.framework */; };
+		63C9FB8E170E523C002269CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63C9FB8C170E523C002269CF /* InfoPlist.strings */; };
+		63C9FB91170E523C002269CF /* EKStitchCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C9FB90170E523C002269CF /* EKStitchCounterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63C9FB87170E523C002269CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63C9FB54170E523C002269CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63C9FB5B170E523C002269CF;
+			remoteInfo = EKStitchCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		631D7C3A17160AD6000F1FA2 /* EKStitchCounterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKStitchCounterTableViewCell.h; sourceTree = "<group>"; };
+		631D7C3B17160AD6000F1FA2 /* EKStitchCounterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKStitchCounterTableViewCell.m; sourceTree = "<group>"; };
+		631D7C6A171668AA000F1FA2 /* 4wiCX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4wiCX.png; sourceTree = "<group>"; };
+		631D7C6B171668AA000F1FA2 /* button_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_red.png; sourceTree = "<group>"; };
+		631D7C6C171668AA000F1FA2 /* button_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_red@2x.png"; sourceTree = "<group>"; };
+		633002C6170E8CF400801C01 /* EKStitchCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKStitchCounter.h; sourceTree = "<group>"; };
+		633002C7170E8CF400801C01 /* EKStitchCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKStitchCounter.m; sourceTree = "<group>"; };
+		636535F11728C767008106A1 /* EKProjectContentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKProjectContentsViewController.h; sourceTree = "<group>"; };
+		636535F21728C767008106A1 /* EKProjectContentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKProjectContentsViewController.m; sourceTree = "<group>"; };
+		639E0384170FB40300F76B49 /* EKProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKProject.h; sourceTree = "<group>"; };
+		639E0385170FB40300F76B49 /* EKProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKProject.m; sourceTree = "<group>"; };
+		63C9FB5C170E523C002269CF /* EKStitchCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EKStitchCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C9FB5F170E523C002269CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		63C9FB61170E523C002269CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63C9FB63170E523C002269CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		63C9FB67170E523C002269CF /* EKStitchCounter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EKStitchCounter-Info.plist"; sourceTree = "<group>"; };
+		63C9FB69170E523C002269CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63C9FB6B170E523C002269CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63C9FB6D170E523C002269CF /* EKStitchCounter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EKStitchCounter-Prefix.pch"; sourceTree = "<group>"; };
+		63C9FB6E170E523C002269CF /* EKStitchCounterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKStitchCounterAppDelegate.h; sourceTree = "<group>"; };
+		63C9FB6F170E523C002269CF /* EKStitchCounterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKStitchCounterAppDelegate.m; sourceTree = "<group>"; };
+		63C9FB71170E523C002269CF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		63C9FB73170E523C002269CF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		63C9FB75170E523C002269CF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		63C9FB78170E523C002269CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		63C9FB82170E523C002269CF /* EKStitchCounterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EKStitchCounterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C9FB83170E523C002269CF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		63C9FB8B170E523C002269CF /* EKStitchCounterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EKStitchCounterTests-Info.plist"; sourceTree = "<group>"; };
+		63C9FB8D170E523C002269CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63C9FB8F170E523C002269CF /* EKStitchCounterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKStitchCounterTests.h; sourceTree = "<group>"; };
+		63C9FB90170E523C002269CF /* EKStitchCounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKStitchCounterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63C9FB59170E523C002269CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C9FB60170E523C002269CF /* UIKit.framework in Frameworks */,
+				63C9FB62170E523C002269CF /* Foundation.framework in Frameworks */,
+				63C9FB64170E523C002269CF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C9FB7E170E523C002269CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C9FB84170E523C002269CF /* SenTestingKit.framework in Frameworks */,
+				63C9FB85170E523C002269CF /* UIKit.framework in Frameworks */,
+				63C9FB86170E523C002269CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		631D7C69171668AA000F1FA2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				631D7C6A171668AA000F1FA2 /* 4wiCX.png */,
+				631D7C6B171668AA000F1FA2 /* button_red.png */,
+				631D7C6C171668AA000F1FA2 /* button_red@2x.png */,
+			);
+			name = images;
+			path = EKStitchCounter/images;
+			sourceTree = "<group>";
+		};
+		63C9FB53170E523C002269CF = {
+			isa = PBXGroup;
+			children = (
+				631D7C69171668AA000F1FA2 /* images */,
+				63C9FB65170E523C002269CF /* EKStitchCounter */,
+				63C9FB89170E523C002269CF /* EKStitchCounterTests */,
+				63C9FB5E170E523C002269CF /* Frameworks */,
+				63C9FB5D170E523C002269CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63C9FB5D170E523C002269CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63C9FB5C170E523C002269CF /* EKStitchCounter.app */,
+				63C9FB82170E523C002269CF /* EKStitchCounterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63C9FB5E170E523C002269CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63C9FB5F170E523C002269CF /* UIKit.framework */,
+				63C9FB61170E523C002269CF /* Foundation.framework */,
+				63C9FB63170E523C002269CF /* CoreGraphics.framework */,
+				63C9FB83170E523C002269CF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63C9FB65170E523C002269CF /* EKStitchCounter */ = {
+			isa = PBXGroup;
+			children = (
+				636535F11728C767008106A1 /* EKProjectContentsViewController.h */,
+				636535F21728C767008106A1 /* EKProjectContentsViewController.m */,
+				63C9FB6E170E523C002269CF /* EKStitchCounterAppDelegate.h */,
+				63C9FB6F170E523C002269CF /* EKStitchCounterAppDelegate.m */,
+				63C9FB77170E523C002269CF /* MainStoryboard.storyboard */,
+				631D7C3A17160AD6000F1FA2 /* EKStitchCounterTableViewCell.h */,
+				631D7C3B17160AD6000F1FA2 /* EKStitchCounterTableViewCell.m */,
+				63C9FB66170E523C002269CF /* Supporting Files */,
+				633002C6170E8CF400801C01 /* EKStitchCounter.h */,
+				633002C7170E8CF400801C01 /* EKStitchCounter.m */,
+				639E0384170FB40300F76B49 /* EKProject.h */,
+				639E0385170FB40300F76B49 /* EKProject.m */,
+			);
+			path = EKStitchCounter;
+			sourceTree = "<group>";
+		};
+		63C9FB66170E523C002269CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63C9FB67170E523C002269CF /* EKStitchCounter-Info.plist */,
+				63C9FB68170E523C002269CF /* InfoPlist.strings */,
+				63C9FB6B170E523C002269CF /* main.m */,
+				63C9FB6D170E523C002269CF /* EKStitchCounter-Prefix.pch */,
+				63C9FB71170E523C002269CF /* Default.png */,
+				63C9FB73170E523C002269CF /* Default@2x.png */,
+				63C9FB75170E523C002269CF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63C9FB89170E523C002269CF /* EKStitchCounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				63C9FB8F170E523C002269CF /* EKStitchCounterTests.h */,
+				63C9FB90170E523C002269CF /* EKStitchCounterTests.m */,
+				63C9FB8A170E523C002269CF /* Supporting Files */,
+			);
+			path = EKStitchCounterTests;
+			sourceTree = "<group>";
+		};
+		63C9FB8A170E523C002269CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63C9FB8B170E523C002269CF /* EKStitchCounterTests-Info.plist */,
+				63C9FB8C170E523C002269CF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63C9FB5B170E523C002269CF /* EKStitchCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C9FB94170E523C002269CF /* Build configuration list for PBXNativeTarget "EKStitchCounter" */;
+			buildPhases = (
+				63C9FB58170E523C002269CF /* Sources */,
+				63C9FB59170E523C002269CF /* Frameworks */,
+				63C9FB5A170E523C002269CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EKStitchCounter;
+			productName = EKStitchCounter;
+			productReference = 63C9FB5C170E523C002269CF /* EKStitchCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63C9FB81170E523C002269CF /* EKStitchCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C9FB97170E523C002269CF /* Build configuration list for PBXNativeTarget "EKStitchCounterTests" */;
+			buildPhases = (
+				63C9FB7D170E523C002269CF /* Sources */,
+				63C9FB7E170E523C002269CF /* Frameworks */,
+				63C9FB7F170E523C002269CF /* Resources */,
+				63C9FB80170E523C002269CF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63C9FB88170E523C002269CF /* PBXTargetDependency */,
+			);
+			name = EKStitchCounterTests;
+			productName = EKStitchCounterTests;
+			productReference = 63C9FB82170E523C002269CF /* EKStitchCounterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63C9FB54170E523C002269CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EKStitchCounter;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Sandy Wen";
+			};
+			buildConfigurationList = 63C9FB57170E523C002269CF /* Build configuration list for PBXProject "EKStitchCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63C9FB53170E523C002269CF;
+			productRefGroup = 63C9FB5D170E523C002269CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63C9FB5B170E523C002269CF /* EKStitchCounter */,
+				63C9FB81170E523C002269CF /* EKStitchCounterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63C9FB5A170E523C002269CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C9FB6A170E523C002269CF /* InfoPlist.strings in Resources */,
+				63C9FB72170E523C002269CF /* Default.png in Resources */,
+				63C9FB74170E523C002269CF /* Default@2x.png in Resources */,
+				63C9FB76170E523C002269CF /* Default-568h@2x.png in Resources */,
+				63C9FB79170E523C002269CF /* MainStoryboard.storyboard in Resources */,
+				631D7C6D171668AA000F1FA2 /* 4wiCX.png in Resources */,
+				631D7C6E171668AA000F1FA2 /* button_red.png in Resources */,
+				631D7C6F171668AA000F1FA2 /* button_red@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C9FB7F170E523C002269CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C9FB8E170E523C002269CF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63C9FB80170E523C002269CF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63C9FB58170E523C002269CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C9FB6C170E523C002269CF /* main.m in Sources */,
+				63C9FB70170E523C002269CF /* EKStitchCounterAppDelegate.m in Sources */,
+				633002C8170E8CF400801C01 /* EKStitchCounter.m in Sources */,
+				639E0386170FB40300F76B49 /* EKProject.m in Sources */,
+				631D7C3C17160AD6000F1FA2 /* EKStitchCounterTableViewCell.m in Sources */,
+				636535F31728C767008106A1 /* EKProjectContentsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C9FB7D170E523C002269CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C9FB91170E523C002269CF /* EKStitchCounterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63C9FB88170E523C002269CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63C9FB5B170E523C002269CF /* EKStitchCounter */;
+			targetProxy = 63C9FB87170E523C002269CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63C9FB68170E523C002269CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C9FB69170E523C002269CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		63C9FB77170E523C002269CF /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C9FB78170E523C002269CF /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		63C9FB8C170E523C002269CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C9FB8D170E523C002269CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63C9FB92170E523C002269CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63C9FB93170E523C002269CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63C9FB95170E523C002269CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EKStitchCounter/EKStitchCounter-Prefix.pch";
+				INFOPLIST_FILE = "EKStitchCounter/EKStitchCounter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63C9FB96170E523C002269CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EKStitchCounter/EKStitchCounter-Prefix.pch";
+				INFOPLIST_FILE = "EKStitchCounter/EKStitchCounter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		63C9FB98170E523C002269CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EKStitchCounter.app/EKStitchCounter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EKStitchCounter/EKStitchCounter-Prefix.pch";
+				INFOPLIST_FILE = "EKStitchCounterTests/EKStitchCounterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		63C9FB99170E523C002269CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EKStitchCounter.app/EKStitchCounter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EKStitchCounter/EKStitchCounter-Prefix.pch";
+				INFOPLIST_FILE = "EKStitchCounterTests/EKStitchCounterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63C9FB57170E523C002269CF /* Build configuration list for PBXProject "EKStitchCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C9FB92170E523C002269CF /* Debug */,
+				63C9FB93170E523C002269CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C9FB94170E523C002269CF /* Build configuration list for PBXNativeTarget "EKStitchCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C9FB95170E523C002269CF /* Debug */,
+				63C9FB96170E523C002269CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C9FB97170E523C002269CF /* Build configuration list for PBXNativeTarget "EKStitchCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C9FB98170E523C002269CF /* Debug */,
+				63C9FB99170E523C002269CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63C9FB54170E523C002269CF /* Project object */;
+}
