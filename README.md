@@ -16,4 +16,5 @@ This project was used to understand UITableView, with a customized subclass of U
 
 Future
 ------
-For better customization, I would try collections or use CALayer directly.
+Since making this app, I have learned about UITableViewHeaderFooterView, a new class in iOS 6 which can be used to change the header appearance. This might be another way to change spacing between elements in the table.
+For completeness, the TableView should better implement the various protocols for data source and delegate.
